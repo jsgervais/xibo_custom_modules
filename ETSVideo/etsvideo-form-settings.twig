@@ -1,0 +1,17 @@
+{#
+/*
+ * École de technologie supérieure - Jean-Sébastien Gervais
+ * based on default video form 1.8.9
+ * Copyright (C) ÉTS
+ * (${FILE_NAME})
+ */
+#}
+
+{% extends "module-form-settings.twig" %}
+{% import "forms.twig" as forms %}
+
+{% block moduleFormFields %}
+    {% set title %}{% trans "Default Mute?" %}{% endset %}
+    {% set helpText %}{% trans "Should new Video Widgets default to Muted?" %}{% endset %}
+    {{ forms.checkbox("defaultMute", title, module.getSetting("defaultMute", 0), helpText) }}
+{% endblock %}

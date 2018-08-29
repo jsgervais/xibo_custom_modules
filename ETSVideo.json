@@ -1,0 +1,7 @@
+{
+    "title": "ETS video",
+    "author": "Ecole de technologie supérieure - Jean-Sebastien Gervais",
+    "description": "Module video a l'intérieur du gabarit ETS avec titre 'Youtube'",
+    "name": "ETSVideo",
+    "class": "Xibo\\Custom\\ETSVideo\\ETSVideo"
+}
